@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom","dom.iterable","esnext","es2015","es6"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    // "noEmit": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "paths": {
+      "components/*": ["./src/components/*"],
+      // "containers/*": ["./src/containers/*"],
+      // "assets/*": ["./src/assets/*"],
+      // "constants/*": ["./constants/*"],
+      // "utils/*": ["./src/utils/*"]
+    },
+    "keyofStringsOnly": true,
+    "incremental": true  // for speed up - build
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "./node_modules/**/*"
+  ]
+}
